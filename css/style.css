@@ -48,7 +48,7 @@ main {
 /** Page header */
 .page-header {
   height: 200px;
-  min-width: 100dvw;
+  min-width: 80dvw;
   /* background-color: #3A4361; */
   position: sticky; /* right? */
   align-items: center;
@@ -82,7 +82,7 @@ main {
 /*^ Container = Intestazione blog + Main + Footer */
 .container {
   height: auto;
-  min-width: 100dvw;
+  min-width: 80dvw;
   background-image: url(../img/monviso.jpg);
   background-size: cover;
   background-position: top left;
@@ -91,10 +91,10 @@ main {
 
 /** Blog header */
 .blog-header {
-  height: 100px;
+  min-height: 10dvh;
   font-family: "Caveat", cursive;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 /* Main --> Descrizione blog */
@@ -109,7 +109,7 @@ main {
 }
 .trip {
   height: 300px;
-  width: 70%;
+  width: 90%;
   margin: 10px auto;
   align-items: center;
   justify-content: center;
